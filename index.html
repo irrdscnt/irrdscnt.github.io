@@ -1,30 +1,14 @@
-<!-- 
-  Hello 😊.
-
-  This template is designed and developed by Nisar Hassan Naqvi
-  for anyone to use for free or customize the way they like.
-
-  Github Repo: https://github.com/nisarhassan12/portfolio-template/
-  My Website: https://nisar.dev
-
-  For business & inquires, contact me => syednisarhassan12@gmail.com
--->
-
-<!--
-  Follow the instructions written in comments to create your stunning portfolio
--->
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+  <link rel="shortcut icon" type="image/png" href="./images/a.png" />
 
   <!-- Put your site title here -->
   <title>
-    Syed Ali Hussnain | A Web Developer based in Lahore, Pakistan.
+    Lailieva Aikanysh | A Developer based in Bishkek, Kyrgyzstan.
   </title>
 
   <meta name="description" content="Add small description of yourslef.">
@@ -42,12 +26,15 @@
       <nav class="nav" role="navigation">
         <ul class="nav__items">
           <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
           <li class="nav__item">
             <a href="#about" class="nav__link">About</a>
           </li>
           <li class="nav__item">
             <a href="#contact" class="nav__link">Contact</a>
+          </li>
+          <li class="nav__item">
+            <a href="#games" class="nav__link">Games</a>
           </li>
         </ul>
       </nav>
@@ -56,10 +43,10 @@
       <div class="header__text">
         <h1 class="heading-primary">
           <!-- Replace the following name with your name -->
-          <span>Syed Ali Hussnain</span>
+          <span>Lailieva Aikanysh</span>
         </h1>
         <!-- Put a small paragraph about yourself -->
-        <p>A Web Developer based in Lahore, Pakistan.</p>
+        <p>A Developer based in Bishkek, Kyrgyzstan.</p>
         <a href="#contact" class="btn btn--pink">Get in touch</a>
       </div>
     </div>
@@ -78,56 +65,67 @@
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Portfolio Template</h3>
+              <h3>Medical Clinic</h3>
               <p>
-                A free Open Source Portfolio for anyone to use for free.
+                A mobile application and website for
+                 a medical clinic with a primary focus on prevential stillbirth and maternal mortality. The project aims to provide support to pregnant women and their families
+                  throughout the prenatal care process while ensuring strict patient confidentiality In terms
+                   of technical stack I have used the following tools and technologies Nest.js, Node.js, 
+                   Typescript, Swagger,PostgreSQL , GitHub/Gitlab, Postman, npm, Ubuntu
               </p>
               <ul class="work__list">
-                <li>HTML</li>
-                <li>SCSS</li>
-                <li>JavaScript</li>
-                <li>Parcel</li>
+                <li>Node.js</li>
+                <li>Nest.js</li>
+                <li>Typescript</li>
+                <li>Swagger</li>
+                <li>PostgreSQL</li>
+                <li>Postman</li>
+                <li>GitHub/GitLab</li>
               </ul>
 
               <div class="work__links">
-                <a href="https://nisar.surge.sh" target="_blank" class="link__text">
-                  Visit Site <span>&rarr;</span>
+                <a href="medtech.html" class="link__text">
+                  Visit page <span>&rarr;</span>
                 </a>
-                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
+                <a href="https://github.com/irrdscnt/Medical-Clinic/tree/dev" title="View Source Code"  target="_blank">
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
+
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+              <img src="./images/medtech.png" class="work__image" alt="Project 1" />
+              <img src="./images/medtech2.png" class="work__image" alt="Project 1" />
             </div>
           </div>
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Calculator</h3>
+              <h3>Website for restaurant "White Stork"</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
+                  Website for restaurant management.
               </p>
               <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
+                <li>Python</li>
+                <li>Django</li>
+                <li>Poetry</li>
+                <li>SQLite</li>
               </ul>
 
               <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
+                <a href="restaurant.html" class="link__text">
+                  Visit page <span>&rarr;</span>
                 </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+            
+                <a href="https://github.com/irrdscnt/Coursework_restaurant/tree/dev" >
+                <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
+              <img src="./images/whitestork1.png" class="work__image" alt="Project 1" />
+              <img src="./images/whitestork.png" class="work__image" alt="Project 1" />
+
             </div>
           </div>
 
@@ -163,21 +161,88 @@
     </section>
 
     <!-- ***** Clients ***** -->
-
-    <section class="client" id="clients">
+    <section class="skills" id="skills">
       <div class="row">
-        <h2>Clients</h2>
-        <div class="client__logos">
-          <!-- Add logos of the clients or companies you'have worked with. -->
-          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
-          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
-          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
-          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
-          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
-          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
+        <h2>My Skills</h2>
+      <div class="skills_row">
+          <ul class="skillsul" >
+            <h3>Tech stack</h3>
+            <li>Node.js</li>
+            <li>Django</li>
+            <li>Java Spring</li>
+            <li>JavaScript</li>
+            <li>Nest.js</li>
+            <li>Express.js</li>
+            <li>Typescript</li>
+            <li>Swagger</li>
+            <li>PostgreSQL</li>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+            <li>SQLite</li>
+            <li>Postman</li>
+            <li>Ubuntu</li>
+            <li>GitHub/GitLab</li>
+            <li>Jira/Trello</li>
+          </ul>
+          <ul class="skillsul" >
+            <h3>Languages</h3>
+            <li>Russian-Native</li>
+            <li>English-Full working profiency(C1)</li>
+            <li>Czech-Limited working profiency(B1)</li>
+            <li>Deutsch-Very limited working profiency(A2)</li>
+
+          </ul>
+          <ul class="skillsul" >
+            <h3>Competencies</h3>
+            <li>Problem-Solving</li>
+            <li>Analytical and Critical Thinking</li>
+            <li>Teamwork and Collaboration</li>
+            <li>Adaptive</li>
+          </ul>
+          <ul class="skillsul" >
+            <li>Node.js</li>
+            <li>Nest.js</li>
+            <li>Typescript</li>
+            <li>Swagger</li>
+            <li>PostgreSQL</li>
+            <li>Postman</li>
+            <li>GitHub/GitLab</li>
+          </ul>
         </div>
       </div>
     </section>
+    <!-- <section class="skills" id="skills">
+      <div class="row">
+        <h2>Skills</h2>
+        <div class="skills">
+          <ul class="skills_rows">
+            <h4>drjjdshj</h4>
+            <li>Python</li>
+            <li>Django</li>
+            <li>Poetry</li>
+            <li>SQLite</li>
+          </ul>
+          <ul class="skills_rows">
+            <li>Python</li>
+            <li>Django</li>
+            <li>Poetry</li>
+            <li>SQLite</li>
+          </ul>
+          <ul class="skills_rows">
+            <li>Python</li>
+            <li>Django</li>
+            <li>Poetry</li>
+            <li>SQLite</li>
+          </ul>
+          <ul class="skills_rows">
+            <li>Python</li>
+            <li>Django</li>
+            <li>Poetry</li>
+            <li>SQLite</li>
+          </ul>
+        </div>
+      </div>
+    </section> -->
 
     <!-- ***** About ***** -->
 
@@ -188,10 +253,15 @@
           <div class="about__text">
             <!-- Replace the below paragraph with info about yourself -->
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos id
-              nostrum illo harum blanditiis, tenetur eum suscipit cupiditate
-              in vel, ex quam quidem quos mollitia labore aut sunt eius
-              ratione molestiae fuga veniam facere similique voluptate.
+              - Backend developer with a strong understanding of server-side programming languages such as Python, Node.js and Java
+              - Skilled in working with databases such as MySQL, MongoDB, and PostgreSQL
+              - Proficient in building RESTful APIs and integrating with third-party services
+              - Experienced in working with frameworks such as Django, NestJS, Spring and Express.js
+              - Strong problem-solving skills and ability to work under pressure
+              - Effective communication and collaboration skills, able to work well in a team environment
+              - Passionate about staying up-to-date with the latest technologies and trends in backend development
+              - Highly motivated to continuously learn and improve skills
+              - Committed to delivering high-quality, scalable, and maintainable code.
             </p>
             <!-- Provide a link to your resume -->
             <a href="#" class="btn">My Resume</a>
@@ -199,7 +269,7 @@
 
           <div class="about__photo-container">
             <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
+            <img class="about__photo" src="./images/aikanysh.png" alt="" />
           </div>
         </div>
       </div>
@@ -213,15 +283,26 @@
       <h2>Get in Touch</h2>
       <div class="contact__info">
         <p>
-          Are you looking for a fast-performing and user-friendly website to
-          represent your product or business? or looking for any kind of
-          consultation? or want to ask questions? or have some advice for me
-          or just want to say "Hi 👋" in any case feel free to Let me know. I
-          will do my best to respond back. 😊 The quickest way to reach out to
-          me is via an email.
+          Are you in need of a skilled and efficient backend developer to enhance the performance and user 
+          experience of your website or to build a robust backend for your product or business? Whether you
+           require technical consultation, have specific questions, wish to share advice, or just want to 
+           say "Hi 👋," I'm here to help. Feel free to get in touch, and I'll do my utmost to promptly respond.
+            The fastest and most direct way to reach me is via email or Telegram. Looking forward to hearing from you! 😊
         </p>
-        <!-- Replace the email with yours -->
-        <a href="mailto:you@example.com" class="btn">you@example.com</a>
+        <a href="mailto:lailievaa02@gmail.com" class="btn">lailievaa02@gmail.com</a>
+        <a href="https://t.me/avesssatan" class="btn">@avesssatan</a>
+
+      </div>
+    </div>
+  </section>
+    <!-- ***** Games ***** -->
+  <section class="games" id="games">
+    <div class="row">
+      <h2>Games</h2>
+      <div class="contact__info">
+        <a href="Mole.html" class="btn">Whack a Mole!</a>
+        <a href="/pacman/pacman.html" class="btn">Pacman</a>
+
       </div>
     </div>
   </section>
@@ -230,40 +311,25 @@
 
   <footer role="contentinfo" class="footer">
     <div class="row">
-      <!-- Update the links to point to your accounts -->
       <ul class="footer__social-links">
+
         <li class="footer__social-link-item">
-          <a href="https://twitter.com/nisarhassan12/" title="Link to Twitter Profile">
-            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://github.com/nisarhassan12/" title="Link to Github Profile">
+          <a href="https://github.com/irrdscnt/" title="Link to Github Profile">
             <img src="./images/github.svg" class="footer__social-image" alt="Github">
           </a>
         </li>
+
         <li class="footer__social-link-item">
-          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
-            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
+          <a href="https://www.linkedin.com/in/irrdscnt">
             <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
           </a>
         </li>
       </ul>
 
-      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
       <p>
-        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
+        &copy; 2023 - Template designed  by Aikanysh.
       </p>
-      <div class="footer__github-buttons">
-        <iframe
-          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
-          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
-        </iframe>
-      </div>
+
     </div>
   </footer>
 

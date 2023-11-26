@@ -405,7 +405,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/header.jpg');
+        url('./images/darkwater.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -530,6 +530,20 @@ body:not(.user-is-tabbing) a:focus {
         margin-right: var(--gutter-medium);
     }
 }
+
+.skills_row{
+    display: flex;
+    flex-direction: row; /* По умолчанию, flex-direction равен row, но для ясности можно явно указать */
+    justify-content: space-between;
+}
+.skillsul {
+
+ 
+    padding: 0;
+    margin: 0;
+}
+
+
 
 /* --------------------------------------- */
 /* ----- About ----- */
