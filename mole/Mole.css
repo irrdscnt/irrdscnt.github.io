@@ -126,7 +126,7 @@ justify-content:center;
 
 .container .all-items .item .hole img{
 height:55px;   
-width:100px;
+width:55px;
 position:absolute;
 bottom:-53px;
 transition:all .2s;
