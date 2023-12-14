@@ -405,14 +405,36 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/darkwater.jpg');
+        url('/images/darkwater.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     font-size: var(--font-size-normal);
 }
-
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.body1 {
+    background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
+        url('./images/pacmanbackg.jpg');
+    height: 55vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: var(--font-size-normal);
+}
+.body2 {
+    background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
+        url('./images/darkwater.jpg');
+    height: 55vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: var(--font-size-normal);
+}
 .header__text {
     position: absolute;
     top: 50%;
